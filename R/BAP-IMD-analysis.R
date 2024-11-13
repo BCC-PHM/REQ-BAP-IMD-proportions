@@ -142,7 +142,7 @@ plot <- ggplot(output_data,
     x = "IMD Quintile",
     y = "Population Percentage",
     fill = "",
-    title = "IMD Distribution of GP-referred Be Active Plus Clients"
+    title = "IMD Distribution of GP-referred Be Active Plus Clients (Q2 - 24/25)"
   ) +                                           
   theme(
     legend.position.inside = T,
@@ -154,7 +154,7 @@ plot <- ggplot(output_data,
 plot
 
 # Save plot
-ggsave("../output/BAP-IMD-dist.png", width=6, height = 4)
+ggsave("../output/BAP-IMD-dist.svg", width=6, height = 4)
   
 
   
